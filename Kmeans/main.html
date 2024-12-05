@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>李采容的分群預測系統</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div id=mainleft>
+		<p>輸入變數</p>
+		<hr>
+		<div>
+			<table>
+				<tr>
+					<td>age</td>
+					<td></td>
+					<td>sex</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>region</td>
+					<td></td>
+					<td>income</td>
+					<td></td>
+				</tr>
+
+				<tr>
+					<td>married</td>
+					<td></td>
+					<td>children</td>
+					<td></td>
+				</tr>
+
+				<tr>
+					<td>car</td>
+					<td></td>
+					<td>save_act</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>current_act</td>
+					<td></td>
+					<td>mortgage</td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	
+	<div id=mainright>
+		<p>kmeans</p>
+		<hr>
+		<table>
+			<tr>
+				<td>資料的群集</td>
+				<td></td>
+				<td>是否會買</td>
+				<td></td>
+			</tr>
+		</table>
+		<br>
+		<p>KNN</p>
+		<hr>
+		<table>
+			<tr>
+				<td>KNN id:</td>
+				<td></td>
+				<td>KNN是否會買</td>
+				<td></td>
+			</tr>
+		</table>
+		<br>
+		<p>交叉分析</p>
+		<hr>
+		<table>
+			<tr>
+				<td>分析結果:</td>
+				<td></td>
+			</tr>
+		</table>
+		
+	</div>
+	<div id=maindown>
+		<table>
+			<tr>
+				<td button id="SendBtn">送出</td>
+				<td button id="CountBtn">計算</td>
+				<td button id="crossAnaBtn">交叉分析</td>
+				<td button id="KNNBtn">KNN</td>
+				<td button id="CleanDataBtn">清除資料</td>
+			</tr>
+		</table>
+	</div>
+
+
+</body>
+</html>
